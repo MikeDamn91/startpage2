@@ -1,1 +1,1 @@
-> A startpage-variant without favorites to use it at work.
+> A startpage-variant without favorites for use at work.
