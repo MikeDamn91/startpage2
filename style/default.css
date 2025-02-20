@@ -225,6 +225,7 @@ div.suchbox {
     border-radius: 7px;
     box-shadow: 1px 1px 5px 0px #0000005b;
     padding: 15px;
+    padding-right: 13px;
     animation: onload 0.3s;
 }
 
