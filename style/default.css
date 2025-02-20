@@ -131,9 +131,16 @@ div.site {
     justify-content: center;
 }
 
+div.content {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 div.bookmarks {
     display: block;
-    margin-top: 220px;
+    margin-top: 10px;
     margin-bottom: 0px;
     position: fixed;
     width: 800px;
@@ -208,18 +215,17 @@ div.links {
 div.suchbox {
     background: var(--hellblautr);
     backdrop-filter: blur(5px);
-    display: block;
-    margin-top: 150px;
+    margin-top: -110px;
     margin-bottom: 0px;
     margin-right: -2px;
-    position: fixed;
+    margin-left: -15px;
     width: 802px;
     min-width: 310px;
     border: 1px solid var(--dunkelblau);
     border-radius: 7px;
     box-shadow: 1px 1px 5px 0px #0000005b;
     padding: 15px;
-    animation: onload 0.8s;
+    animation: onload 0.3s;
 }
 
 div.suchbox:hover {
@@ -313,6 +319,7 @@ input::placeholder {
         margin-top: 0px;
         padding: 5px;
         width: 100%;
+        position: fixed;
         top: 0;
         z-index: 9999;
     }
